@@ -5,8 +5,6 @@ h1 {
 }
 
 
-h2 
-
 nav li {
     margin-right: 10mm;
 }
@@ -14,8 +12,7 @@ nav li {
 .main-header { 
     display: flex;
   justify-content: space-between;
-  padding: 20
-px;
+  padding: 20px;
   background: #13293d;
   color: #fff;
 }
@@ -27,8 +24,90 @@ px;
     padding: 14px 20px;
 }
 
-main {
-    display: flex;
-    margin-top: 2%;
+.container-1 {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+  
+}
+.box-1  { 
+    text-align: right;
+    height: 50%;
+    padding-top: 10mm;
+    padding-right: 20px;
+    font-size: 30pt;
 
+}
+
+.box-1 h2 {
+    height: fit-content;
+}
+
+.box-2 {
+    display: flex;
+    padding: 20mm;
+    border-left: 10px solid grey;
+    margin: 20px auto;
+}
+
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    
+}
+.box-3  { 
+    display: flex;
+    width: 39mm;
+    padding: 5mm;
+    align-items: center;
+}
+
+.box-3 h2 {
+    position: relative;
+    left: 20px;
+}
+
+.box-4 {
+    display: flex;
+    padding: 20mm;
+    border-left: 10px solid grey;
+
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-row: auto auto;
+    
+}
+.box-5  { 
+    display: flex;
+    width: 39mm;
+    padding: 5mm;
+    align-items: center;
+}
+
+.box-5 h2 {
+    position: relative;
+    left: 20px;
+}
+
+.box-6 {
+    display: flex;
+    padding: 20mm;
+    border-left: 10px solid grey;       
+}
+.box-7 {
+    display: flex;
+    padding: 20mm;
+        
+}       
+.box-8 {
+    display: flex;
+    padding: 20mm;
+    border-left: 10px solid grey;
+}
+.box-9 {
+    display: flex;
+    padding: 20mm;
 }
