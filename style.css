@@ -56,15 +56,15 @@ nav li {
     
 }
 .box-3  { 
-    display: flex;
-    width: 39mm;
-    padding: 5mm;
-    align-items: center;
+    text-align: right;
+    height: 50%;
+    padding-top: 10mm;
+    padding-right: 20px;
+    font-size: 30pt;
 }
 
 .box-3 h2 {
-    position: relative;
-    left: 20px;
+    height: fit-content;
 }
 
 .box-4 {
