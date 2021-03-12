@@ -118,15 +118,35 @@ nav li {
 .box-6 {
     display: flex;
     padding: 20mm;
-    border-left: 10px solid grey;   
-  
+    border-left: 10px solid grey;
+    justify-content: center;  
+    height: 450px; 
+    background-image: url(https://i.pinimg.com/736x/17/4a/bb/174abb318dabb605a432f12c15896883.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}   
+
+.box-6 h3 {
+    color: #fff;
+    border: solid 5px white;
+    height: 20px;
+    
 }
+
 .box-7 {
     display: flex; 
     padding: 20mm;
-     
-          
-}       
+    justify-content: center;
+    align-self: end;
+    height: 300px;
+    width: 300px;
+    background-image: url(https://via.placeholder.com/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+
 .box-8 {
     display: flex;
     padding: 20mm;
