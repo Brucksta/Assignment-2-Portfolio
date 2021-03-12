@@ -19,6 +19,7 @@ nav li {
 
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     list-style-type: none;
     padding: 14px 20px;
@@ -27,7 +28,7 @@ nav li {
 
 .container-1 {
     display: grid;
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 25% 75%;
   
 }
 .box-1  { 
@@ -60,7 +61,7 @@ nav li {
 
 .container-2 {
     display: grid;
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 25% 75%;
     
 }
 .box-3  { 
@@ -97,9 +98,9 @@ nav li {
 
 .container-3 {
     display: grid;
-    grid-template-columns: 3fr 2.25fr 2.25fr 2.25fr 2.25fr;
+    grid-template-columns: 25% 50% 50%;
     grid-row: auto auto;
-    
+       
 }
 .box-5  { 
     text-align: right;
@@ -107,6 +108,7 @@ nav li {
     padding-top: 10mm;
     padding-right: 20px;
     font-size: 30pt;
+    
 }
 
 .box-5 h2 {
@@ -116,19 +118,27 @@ nav li {
 .box-6 {
     display: flex;
     padding: 20mm;
-    border-left: 10px solid grey;       
+    border-left: 10px solid grey;   
+  
 }
 .box-7 {
-    display: flex;
+    display: flex; 
     padding: 20mm;
-        
+     
+          
 }       
 .box-8 {
     display: flex;
     padding: 20mm;
+    /* empty */
     
 }
 .box-9 {
+    display: flex;
+    padding: 20mm;
+    border-left: 10px solid grey; 
+}
+.box-10 {
     display: flex;
     padding: 20mm;
 }
