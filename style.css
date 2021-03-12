@@ -28,7 +28,7 @@ nav li {
 
 .container-1 {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 3fr 9fr;
   
 }
 .box-1  { 
@@ -61,7 +61,7 @@ nav li {
 
 .container-2 {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 3fr 9fr;
     
 }
 .box-3  { 
@@ -98,7 +98,7 @@ nav li {
 
 .container-3 {
     display: grid;
-    grid-template-columns: 25% 50% 50%;
+    grid-template-columns: 3fr 4.5fr 4.5fr;
     grid-row: auto auto;
        
 }
@@ -123,7 +123,7 @@ nav li {
     height: 450px; 
     background-image: url(https://i.pinimg.com/736x/17/4a/bb/174abb318dabb605a432f12c15896883.jpg);    
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-origin: content-box;
 }   
 
