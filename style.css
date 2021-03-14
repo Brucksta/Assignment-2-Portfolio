@@ -156,9 +156,25 @@ nav li {
 .box-9 {
     display: flex;
     padding: 20mm;
+    justify-content: center;
+    align-self: end;
+    height: 300px;
+    width: 300px;
     border-left: 10px solid grey; 
+    background-image: url(https://via.placeholder.com/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
 }
 .box-10 {
     display: flex;
     padding: 20mm;
+    justify-content: center;
+    align-self: end;
+    height: 300px;
+    width: 300px;
+    background-image: url(https://via.placeholder.com/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
 }
