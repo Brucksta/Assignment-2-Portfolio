@@ -8,7 +8,7 @@ I've started off with a basic sketch on paper to create a basic wireframe. Havin
 I coded in all my pictures, set them into containers as parent divs, and then called my child divs boxes. The container would start the mould for the grid, and the boxes would be where I could add content and then shape them how I wanted. I set a nice border to the left of the content, which allowed me to have a straight line seperating the two different sections which gave the portfolio a nice flow. 
 
 <h5>Below is a image of my website upon loading</h5>
-![image](https://user-images.githubusercontent.com/78789156/111120319-1c977a80-85bb-11eb-99f7-fb36bb20cb2e.png)
+![Photo-of-site](Photo-of-site.png)
 
 
 
