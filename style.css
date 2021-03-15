@@ -242,9 +242,12 @@ a:visited{
         display: flex;
         flex-wrap: wrap;
     }
-    .box-7 {
+    .box-7, .box-9, .box-10 {
         position: relative;
-        left: 25%;
+        left: 30%;
+    }
+    .box-9 {
+        border-left: none;
     }
 }  
     
