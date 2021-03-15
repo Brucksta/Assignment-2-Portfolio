@@ -9,6 +9,12 @@ nav li {
     margin-right: 10mm;
 }
 
+nav ul li a {text-decoration:none}
+
+a:visited{
+    color: white;
+  }
+
 .main-header { 
     display: flex;
   justify-content: space-between;
