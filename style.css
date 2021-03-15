@@ -1,3 +1,4 @@
+
 p, li {font-family: Arial, Helvetica, sans-serif;}
 
 h1 {
@@ -213,3 +214,11 @@ a:visited{
     color: white;
     text-align: center;
  }
+
+@media screen and (max-width: 600px) {
+    #resume, #projects, #contactme, #amheader {font-size: 20pt;}
+    #aboutme {font-size: 12pt;}
+    .box-4 img {width: auto;
+                height: auto; }    
+}
+    
