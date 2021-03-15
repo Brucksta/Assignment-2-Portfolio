@@ -224,8 +224,26 @@ a:visited{
 @media screen and (max-width: 600px) {
     #resume, #projects, #contactme, #amheader {font-size: 20pt;}
     #aboutme {font-size: 12pt;}
-    .box-4 img {width: auto;
-                height: auto; }    
+    .box-4 img {width: 200px;
+                height: 300px;} 
+    .main-header{width: 100%;} 
+    .box-6, .box-7, .box-9, .box-10 {
+        display: block;
+        flex-wrap: wrap;
+        padding: 1%;
+    }
     
-}
+    .container-3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box-7 {
+        position: relative;
+        left: ;
+        width: 150px;
+        height: 150px;
+        
+    }
+}  
+    
     
