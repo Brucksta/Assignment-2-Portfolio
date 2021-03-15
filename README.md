@@ -10,3 +10,5 @@ I coded in all my pictures, set them into containers as parent divs, and then ca
 add picture here:
 
 I then ran into the issue of needing it to be responsive for all sorts of platforms. Id set all the boxes and columns to work as fractions, so when the pages are resized they can easily keep their format. The sizing id gone with for my desktop version (which I started with) however, wouldnt easily work on a phone. I realised i needed to add Media queries to allow the content to mould itself around to fit the smaller screen size. I used flex wrap to allow the columns to flow down, and allow the website to easily scroll on a phone.
+
+The website can be found here: https://brucksta.github.io/Assignment-2-Portfolio/
